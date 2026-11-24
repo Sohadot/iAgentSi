@@ -1,0 +1,96 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth;color-scheme:light}body{margin:0;background:#F2F1EC;font-family:Inter,system-ui,sans-serif}a{color:#0E0F11}a:hover{color:#B8300A}a:focus-visible,button:focus-visible{outline:3px solid #B8300A;outline-offset:4px}img,video{max-width:100%} [hidden]{display:none!important} .site{overflow-wrap:anywhere} .skip{position:absolute;left:1rem;top:-5rem;background:white;padding:1rem;z-index:9}.skip:focus{top:1rem}.d1{background: #F2F1EC; color: #0E0F11; font-family: Inter, system-ui, sans-serif; font-size: 17px; line-height: 1.6}
+.d2{padding: 18px clamp(20px,5vw,64px); border-bottom: 1px solid #D6D4CC}
+.d3{max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px}
+.d4{font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 22px; letter-spacing: -0.02em; text-decoration: none; padding: 10px 0}
+.d5{color: #5A5C61}
+.d6{display: flex; flex-wrap: wrap; align-items: center; gap: 4px 26px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase}
+.d7{text-decoration: none; padding: 12px 0}
+.d8{text-decoration: none; padding: 12px 20px; background: #E8E6DF; color: #0E0F11; border: 1px solid #0E0F11; border-radius: 999px}
+.d9{padding: clamp(56px,8vw,112px) clamp(20px,5vw,64px) clamp(48px,6vw,88px)}
+.d10{max-width: 1200px; margin: 0 auto}
+.d11{margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #5A5C61}
+.d12{display: flex; flex-wrap: wrap; gap: 32px 64px; align-items: flex-end; border-top: 1px solid #0E0F11; padding-top: 40px}
+.d13{flex: 1 1 520px; margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: clamp(34px,4.2vw,58px); line-height: 1.04; letter-spacing: -0.03em}
+.d14{color: #E5400F}
+.d15{flex: 1 1 340px; max-width: 460px}
+.d16{margin: 0 0 28px; color: #3E4045; font-size: 18px}
+.d17{display: flex; flex-wrap: wrap; gap: 12px}
+.d18{display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; background: #E8E6DF; color: #0E0F11; border: 1px solid #0E0F11; border-radius: 999px; text-decoration: none; font-weight: 500; font-size: 15px}
+.d19{display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; border: 1px solid #0E0F11; border-radius: 999px; text-decoration: none; font-weight: 500; font-size: 15px}
+.d20{display: flex; flex-wrap: wrap; margin: 72px 0 0; border-top: 1px solid #D6D4CC; border-bottom: 1px solid #D6D4CC}
+.d21{flex: 1 1 220px; padding: 22px 24px 22px 0}
+.d22{font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #5A5C61}
+.d23{margin: 6px 0 0; font-family: 'Space Grotesk', sans-serif; font-size: 26px; font-weight: 500}
+.d24{flex: 1 1 220px; padding: 22px 0}
+.d25{padding: clamp(64px,8vw,120px) clamp(20px,5vw,64px); border-top: 1px solid #D6D4CC}
+.d26{margin: 0 0 20px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #5A5C61}
+.d27{margin: 0 0 64px; max-width: 900px; font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: clamp(34px,4.4vw,60px); line-height: 1.02; letter-spacing: -0.025em}
+.d28{display: flex; flex-wrap: wrap; gap: 40px}
+.d29{flex: 1 1 280px; border-top: 2px solid #0E0F11; padding-top: 24px}
+.d30{font-family: 'Space Grotesk', sans-serif; font-size: 72px; font-weight: 500; line-height: 1; letter-spacing: -0.04em; margin-bottom: 20px}
+.d31{margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600}
+.d32{margin: 0; color: #3E4045}
+.d33{flex: 1 1 280px; border-top: 2px solid #E5400F; padding-top: 24px}
+.d34{font-family: 'Space Grotesk', sans-serif; font-size: 72px; font-weight: 500; line-height: 1; letter-spacing: -0.04em; margin-bottom: 20px; color: #E5400F}
+.d35{display: flex; flex-wrap: wrap; gap: 24px; margin-top: 72px}
+.d36{flex: 1 1 440px; background: #FFFFFF; border: 1px solid #D6D4CC; border-radius: 4px; padding: clamp(28px,4vw,48px)}
+.d37{margin: 0 0 28px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #5A5C61}
+.d38{font-family: 'Space Grotesk', sans-serif; font-size: clamp(56px,7vw,96px); font-weight: 500; line-height: 1; letter-spacing: -0.04em; margin-bottom: 28px}
+.d39{color: #8A8C91}
+.d40{text-decoration: underline; text-decoration-color: #E5400F; text-decoration-thickness: 6px; text-underline-offset: 12px}
+.d41{display: flex; flex-wrap: wrap; gap: 8px 28px; font-family: 'Space Grotesk', sans-serif; font-size: clamp(40px,5vw,64px); font-weight: 500; line-height: 1.1; letter-spacing: -0.03em; margin-bottom: 28px}
+.d42{padding: clamp(64px,8vw,120px) clamp(20px,5vw,64px); background: #E8E6DF; color: #0E0F11}
+.d43{margin: 0 0 56px; font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: clamp(34px,4.4vw,60px); line-height: 1.02; letter-spacing: -0.025em}
+.d44{list-style: none; margin: 0; padding: 0; border-top: 1px solid #D6D4CC}
+.d45{display: flex; gap: 24px; padding: 26px 0; border-bottom: 1px solid #D6D4CC}
+.d46{flex: 0 0 56px; font-family: 'IBM Plex Mono', monospace; font-size: 14px; padding-top: 8px; color: #B8300A}
+.d47{flex: 1 1 auto; font-family: 'Space Grotesk', sans-serif; font-size: clamp(22px,2.4vw,30px); line-height: 1.3; letter-spacing: -0.01em}
+.d48{margin: 32px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #5A5C61}
+.d49{padding: clamp(64px,8vw,120px) clamp(20px,5vw,64px)}
+.d50{display: flex; flex-wrap: wrap; gap: 40px 0}
+.d51{flex: 1 1 260px; padding-right: 28px}
+.d52{display: flex; align-items: center; margin-bottom: 28px}
+.d53{width: 14px; height: 14px; border-radius: 50%; background: #E5400F; flex: none}
+.d54{flex: 1; height: 2px; background: #E5400F}
+.d55{margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #5A5C61}
+.d56{margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 30px; font-weight: 500; letter-spacing: -0.02em}
+.d57{flex: 1 1 260px}
+.d58{width: 22px; height: 22px; border-radius: 50%; border: 2px solid #E5400F; box-sizing: border-box; flex: none; display: flex; align-items: center; justify-content: center}
+.d59{width: 10px; height: 10px; border-radius: 50%; background: #E5400F}
+.d60{margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 30px; font-weight: 500; letter-spacing: -0.02em; color: #E5400F}
+.d61{max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px 72px}
+.d62{flex: 1 1 460px}
+.d63{margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: clamp(40px,5.4vw,76px); line-height: 0.98; letter-spacing: -0.035em}
+.d64{margin: 28px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #5A5C61}
+.d65{flex: 1 1 420px; padding-top: 8px}
+.d66{margin: 0 0 24px; font-family: 'Space Grotesk', sans-serif; font-size: 26px; line-height: 1.3; letter-spacing: -0.01em}
+.d67{padding: clamp(64px,8vw,120px) clamp(20px,5vw,64px); background: #E8E6DF}
+.d68{margin: 0 0 20px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #55575C}
+.d69{margin: 0 0 56px; max-width: 900px; font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: clamp(34px,4.4vw,60px); line-height: 1.02; letter-spacing: -0.025em}
+.d70{display: flex; flex-wrap: wrap; gap: 20px}
+.d71{flex: 1 1 260px; background: #F2F1EC; border-radius: 4px; padding: 32px 28px}
+.d72{margin: 0 0 40px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #55575C}
+.d73{margin: 0 0 12px; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 500; letter-spacing: -0.01em}
+.d74{margin: 0; color: #3E4045; font-size: 16px}
+.d75{max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 32px 72px}
+.d76{flex: 1 1 300px}
+.d77{margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: clamp(34px,4.4vw,60px); line-height: 1.02; letter-spacing: -0.025em}
+.d78{flex: 2 1 560px; margin: 0; border-top: 1px solid #0E0F11}
+.d79{display: flex; flex-wrap: wrap; gap: 4px 24px; padding: 18px 0; border-bottom: 1px solid #D6D4CC}
+.d80{flex: 0 0 180px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #5A5C61; padding-top: 3px}
+.d81{flex: 1 1 280px; margin: 0; font-weight: 500}
+.d82{margin: 0 0 32px; font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: clamp(44px,6.4vw,92px); line-height: 0.98; letter-spacing: -0.04em}
+.d83{color: #B8300A}
+.d84{display: flex; flex-wrap: wrap; gap: 32px 72px; align-items: flex-end}
+.d85{flex: 1 1 480px; margin: 0; color: #3E4045; font-size: 19px; max-width: 640px}
+.d86{display: inline-flex; align-items: center; gap: 14px; min-height: 60px; padding: 0 30px; background: #F2F1EC; color: #0E0F11; border-radius: 999px; text-decoration: none; font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px}
+.d87{width: 22px; height: 22px}
+.d88{display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 56px; padding-top: 28px; border-top: 1px solid #D6D4CC; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #5A5C61}
+.d89{padding: 32px clamp(20px,5vw,64px); background: #E8E6DF; color: #5A5C61; border-top: 1px solid #D6D4CC}
+.d90{max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; font-size: 14px}
+.d91{margin: 0; max-width: 680px}
+.d92{margin: 0}
+.d93{color: #0E0F11}
+.motion{margin:40px 0 56px}.motion-media{position:relative;background:#f2f0ec;aspect-ratio:912/320;isolation:isolate}.motion-media img,.motion-media video{display:block;width:100%;height:100%;object-fit:contain}.motion-media video{position:absolute;inset:0}.motion figcaption{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#5A5C61;font:12px 'IBM Plex Mono',monospace;margin-top:10px}.motion button{font:inherit;cursor:pointer;border:1px solid #5A5C61;color:#0E0F11;background:transparent;border-radius:20px;padding:9px 14px;min-height:44px}.thesis-note,.acq-note{border-top:1px solid #D6D4CC;margin-top:40px;padding-top:24px;max-width:800px}.thesis-note h3,.acq-note h3{font-family:'Space Grotesk',sans-serif;font-size:24px;font-weight:500;margin:12px 0}.eyebrow,.scope-note{font:13px/1.6 'IBM Plex Mono',monospace;color:#5A5C61}.scope-note{margin-top:20px} .thesis-note a{font-weight:600;text-underline-offset:4px} .doc{max-width:800px;margin:auto;padding:clamp(20px,5vw,64px);line-height:1.75;color:#0E0F11}.doc h1,.doc h2{font-family:'Space Grotesk',sans-serif;line-height:1.12}.doc h1{font-size:clamp(35px,6vw,60px)}.doc h2{font-size:28px;margin-top:2em}.doc p{font-size:17px}.doc footer{border-top:1px solid #D6D4CC;margin-top:48px;padding-top:20px} @media(max-width:600px){.motion{margin:28px 0 32px}.motion figcaption{font-size:10px}.site nav a{font-size:12px}.site section article,.site section dd{min-width:0}.site section dl div{min-width:0}.site section svg{max-width:100%}.site section#name article div{font-size:58px}.site section#name [role=img]{font-size:clamp(35px,12vw,56px)}.site #acquire a{font-size:16px;padding:0 16px}.site #thesis li{gap:10px}.site #thesis li>span:first-child{flex-basis:30px}.site #path h2{margin-bottom:36px}.site #spec dl dt{flex-basis:120px}.site #category h2{overflow-wrap:normal;hyphens:auto}} @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}} @media print{.doc button,.doc nav{display:none}.doc{padding:0;max-width:none}.doc h2{break-after:avoid}body{background:white}}/* Keep the original motion at a crisp scale and the thesis visible above the fold. */
+@media(min-width:601px){.motion-media{max-width:1000px;margin-inline:auto}.motion figcaption{max-width:1000px;margin-inline:auto}}
+@media(max-width:600px){.site header nav>a:first-child{font-size:22px}.site #top{padding-top:40px}.motion figcaption{gap:6px}.motion button{min-height:44px}}
