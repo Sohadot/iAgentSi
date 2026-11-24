@@ -1,4 +1,4 @@
-# iAgentSi.com — public release candidate v1.0
+# iAgentSi.com — public release v1.1
 
 Static HTML/CSS/JavaScript implementation of the supplied design reference. No package installation or build is required. The original video stream is retained without re-encoding; audio is removed and MP4 metadata is optimized for streaming.
 
@@ -7,6 +7,9 @@ Run `python -m http.server 8000` in this directory and open `http://localhost:80
 
 ## Deployment
 Commit the contents of this directory (not the parent ZIP) to the public repository. On Cloudflare Pages use no framework, no build command, and the directory containing `index.html` as output. Verify the canonical HTTPS host iagentsi.com and configure redirects for alternate hosts if needed.
+
+## Discovery
+The canonical thesis remains at version 1.0. `/llms.txt` provides an optional reference guide; `/thesis/thesis.md` is a text mirror, not a second canonical publication.
 
 ## Verification
 Check the published homepage, /thesis/, /robots.txt, /sitemap.xml, video MIME type/range requests, and absolute social image URL. Validate the preview on actual platforms after deployment. The local checks used Chromium with embedded copies of assets; deployed HTTP, font delivery, CSP and crawler previews remain unverified.

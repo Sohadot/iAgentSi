@@ -94,3 +94,24 @@
 .motion{margin:40px 0 56px}.motion-media{position:relative;background:#f2f0ec;aspect-ratio:912/320;isolation:isolate}.motion-media img,.motion-media video{display:block;width:100%;height:100%;object-fit:contain}.motion-media video{position:absolute;inset:0}.motion figcaption{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#5A5C61;font:12px 'IBM Plex Mono',monospace;margin-top:10px}.motion button{font:inherit;cursor:pointer;border:1px solid #5A5C61;color:#0E0F11;background:transparent;border-radius:20px;padding:9px 14px;min-height:44px}.thesis-note,.acq-note{border-top:1px solid #D6D4CC;margin-top:40px;padding-top:24px;max-width:800px}.thesis-note h3,.acq-note h3{font-family:'Space Grotesk',sans-serif;font-size:24px;font-weight:500;margin:12px 0}.eyebrow,.scope-note{font:13px/1.6 'IBM Plex Mono',monospace;color:#5A5C61}.scope-note{margin-top:20px} .thesis-note a{font-weight:600;text-underline-offset:4px} .doc{max-width:800px;margin:auto;padding:clamp(20px,5vw,64px);line-height:1.75;color:#0E0F11}.doc h1,.doc h2{font-family:'Space Grotesk',sans-serif;line-height:1.12}.doc h1{font-size:clamp(35px,6vw,60px)}.doc h2{font-size:28px;margin-top:2em}.doc p{font-size:17px}.doc footer{border-top:1px solid #D6D4CC;margin-top:48px;padding-top:20px} @media(max-width:600px){.motion{margin:28px 0 32px}.motion figcaption{font-size:10px}.site nav a{font-size:12px}.site section article,.site section dd{min-width:0}.site section dl div{min-width:0}.site section svg{max-width:100%}.site section#name article div{font-size:58px}.site section#name [role=img]{font-size:clamp(35px,12vw,56px)}.site #acquire a{font-size:16px;padding:0 16px}.site #thesis li{gap:10px}.site #thesis li>span:first-child{flex-basis:30px}.site #path h2{margin-bottom:36px}.site #spec dl dt{flex-basis:120px}.site #category h2{overflow-wrap:normal;hyphens:auto}} @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}} @media print{.doc button,.doc nav{display:none}.doc{padding:0;max-width:none}.doc h2{break-after:avoid}body{background:white}}/* Keep the original motion at a crisp scale and the thesis visible above the fold. */
 @media(min-width:601px){.motion-media{max-width:1000px;margin-inline:auto}.motion figcaption{max-width:1000px;margin-inline:auto}}
 @media(max-width:600px){.site header nav>a:first-child{font-size:22px}.site #top{padding-top:40px}.motion figcaption{gap:6px}.motion button{min-height:44px}}
+
+/* V1.1 — compact motion controls and mobile navigation; preserve the original visual system. */
+.motion-description{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;border:0}
+.motion figcaption{position:relative;justify-content:flex-end;margin-top:0}
+.motion button{border:0;border-radius:4px;padding:0 8px;min-height:44px;text-decoration:underline;text-underline-offset:4px;color:#5A5C61}
+.motion button:hover{color:#B8300A}
+@media(max-width:600px){
+  .site .d2{padding-block:10px 8px}
+  .site .d3{display:grid;grid-template-columns:minmax(0,1fr);gap:2px}
+  .site header nav>a:first-child{padding:4px 0;min-height:44px;display:flex;align-items:center}
+  .site .d6{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:3px;letter-spacing:0}
+  .site .d6 a{display:flex;align-items:center;justify-content:center;text-align:center;min-height:44px;padding:4px 1px;font-size:10px;line-height:1.25;white-space:nowrap}
+  .site .d6 .d8{padding:4px 2px}
+  .site #top{padding-top:24px}
+  .site .d11{font-size:11px;letter-spacing:.09em}
+  .motion{margin:18px 0 16px}
+  .motion figcaption{font-size:11px}
+  .site .d12{padding-top:24px;gap:20px}
+  .site .d13{font-size:clamp(30px,8.5vw,42px)}
+  .site #thesis li>span:first-child{flex-basis:34px}
+}
