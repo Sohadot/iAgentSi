@@ -1,0 +1,17 @@
+# iAgentSi.com
+
+> A conceptual digital asset exploring agency as a mediation layer between intelligences.
+
+The name expresses intelligence, agency and superintelligence through its linguistic, visual and motion identity. Core concepts include agentic mediation, delegation, accountability and coordination. The agentic path to superintelligence is a conceptual proposition, not an established outcome.
+
+## Primary references
+
+- [Conceptual landing](https://iagentsi.com/): Identity, six propositions, possible applications and acquisition scope.
+- [The Agentic Mediation Thesis — v1.0](https://iagentsi.com/thesis/): Canonical publication, terminology, boundaries and suggested citation.
+- [The Agentic Mediation Thesis — Markdown](https://iagentsi.com/thesis/thesis.md): Text mirror of the canonical publication.
+
+## Scope
+
+Held and developed by Sohadot. Not an operating product, validated scientific theory or established technical standard. The conventional expansion of ASI is artificial superintelligence.
+
+Suggested citation: Sohadot. iAgentSi: The Agentic Mediation Thesis. Version 1.0, 24 November 2026. https://iagentsi.com/thesis/.
